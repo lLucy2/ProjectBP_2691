@@ -42,6 +42,7 @@ android {
         jvmTarget = '1.8'
     }
     compileSdk 34
+    buildToolsVersion '34.0.0'
 }
 
 dependencies {
