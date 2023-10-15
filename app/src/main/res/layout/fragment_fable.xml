@@ -3,17 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FableFragment"
-    android:background="#B745C8B5">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#B745C8B5"
+    tools:context=".FableFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Fable Fragment"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp">
 
+        <TextView
+            android:id="@+id/textViewFable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fable Books "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+</androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

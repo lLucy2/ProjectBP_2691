@@ -42,7 +42,6 @@ class HomeActivity : AppCompatActivity() {
         )
 
         val adapter = AdapterHome(data)
-
         rvBuku.adapter = adapter
 
     }
